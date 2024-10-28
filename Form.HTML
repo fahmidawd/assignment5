@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+</head>
+<body>
+    <h2>Student Addmission Form</h2>
+    <p>First Name: * <input type="text" name="name" placeholder="Enter your first name" required> Last Name: * <input type="text" name="name" required placeholder="Enter your last name " required></p>
+    <p>Date of Birth: <input type="date" value="Celeder"></p>
+    <legend>Gender: *<p>
+    Male <input type="radio" name="gender" id="gender" required> Female <input type="radio" name="gender" id="gender" required>
+    Other <input type="radio" name="Gender" id="Gender" required> 
+    </legend>     
+    </p>
+    <p>Address: * <textarea name="Address" id="address" cols="40" rows="10"></textarea required></p>
+    <p>Place of Birth: <input type="text" name="place of birth" ></p>
+    <p>Email: * <input type="email" name="email" id="email" placeholder="Enter your email address" required></p>
+    <p>Mobile Number: <input type="number" name="number" id="number" required></p>
+    <p>
+     Institution Name:
+     <select name="text" id="text" required>
+        <option value="--Select Your Institute--">Select Your Institute</option>
+        <option value="Leading University">Leading University</option>
+        <option value="Metropalitan University"> Metropalitan University</option>
+        <option value="SUST">SUST</option>
+     </select>
+    </p>
+    <div>
+        <p>Degree Program:
+            <select name="text" id="text" required>
+                <option value="--Select your program name--">Choose your program name</option>
+                <option value="Bsc in CSE">Bsc in CSE</option>
+                <option value="Bsc in SE">Bsc in SE</option>
+                <option value="Bsc in EEE">Bsc in EEE</option>
+                <option value="BBA">BBA</option>
+            </select>
+        </p>
+    </div>
+    <h2>Payment Procedure</h2>
+    <p>Payment Type:
+        <select name="Payment_type" id="Payment_type" required>
+            <option value="--Select a Payment Type--"></option>
+            <option value="Bkash">Bkash</option>
+            <option value="Nogod">Nogod</option>
+        </select>
+    </p>
+    <p>Bkash Number: <input type="number" name="BKash_Number" id="BKash_Number"></p>
+     <p>Nogod Number: <input type="number" name="Nogod_Number" id="Nogod_Number"></p>
+     <input type="submit" value="Submit">
+</body>
+</html>
